@@ -1,12 +1,12 @@
 * {
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  padding: 0;
-  margin: 0;
-
   overflow: scroll;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -15,17 +15,13 @@ header {
 }
 
 .header-container {
-  padding: 32px 321px 18px;
+  margin: 32px 321px 18px;
 }
 
 .header-nav {
   margin: auto;
   max-width: 1560px;
   list-style-type: none;
-}
-
-.tedED-logo {
-  padding: 0;
 }
 
 .tedED-logo img {
@@ -47,7 +43,6 @@ header {
 .register-container a {
   text-decoration: none;
   color: #ea0028;
-  font-family: Lora;
   font-size: 14px;
 }
 
@@ -70,6 +65,22 @@ p {
 
 .nav-container {
   max-width: 100%;
-  height: 56px;
+  height: 60px;
   background-color: #ea0028;
+  padding-left: 300px;
+}
+
+.nav-container ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-container li {
+  padding: 15px 25px;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px;
 }
