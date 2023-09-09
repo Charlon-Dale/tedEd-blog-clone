@@ -4,28 +4,34 @@
 
 body {
   padding: 0;
-  margin: 0 auto;
-  max-width: 1260px;
+  margin: 0;
+
   overflow: scroll;
 }
 
-.header-nav {
-  margin: 29px 0 10px;
+header {
+  display: flex;
+  flex-direction: column;
 }
 
-ul {
+.header-container {
+  padding: 32px 321px 18px;
+}
+
+.header-nav {
+  margin: auto;
+  max-width: 1560px;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .tedED-logo {
-  float: left;
+  padding: 0;
 }
 
 .tedED-logo img {
-  width: 131px;
-  height: 35px;
+  float: left;
+  width: 128px;
+  height: 32px;
   object-fit: cover;
 }
 
@@ -35,11 +41,12 @@ ul {
 
 .register-container {
   float: right;
+  margin-top: 5px;
 }
 
 .register-container a {
   text-decoration: none;
-  color: red;
+  color: #ea0028;
   font-family: Lora;
   font-size: 14px;
 }
@@ -50,9 +57,8 @@ p {
 
 .search-container input[type="text"] {
   padding: 8px 15px;
-  margin-top: 8px;
   border: 1px groove #c2c2c2;
-  width: 207px;
+  width: 227px;
 }
 
 .input-icons img {
@@ -63,8 +69,7 @@ p {
 }
 
 .nav-container {
-  width: 300px;
-  height: 300px;
-  color: red;
-  background-color: red;
+  max-width: 100%;
+  height: 56px;
+  background-color: #ea0028;
 }
