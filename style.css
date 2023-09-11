@@ -147,3 +147,7 @@ p {
   line-height: 26px;
   color: #555555;
 }
+
+.span-link {
+  text-decoration: none;
+}
