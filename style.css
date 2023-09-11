@@ -6,6 +6,7 @@
 
 body {
   overflow: scroll;
+  overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -129,6 +130,7 @@ p {
   column-gap: 38px;
 
   padding: 0 5px;
+  margin-bottom: 21px;
 }
 
 .headline-container img {
@@ -150,4 +152,33 @@ p {
 
 .span-link {
   text-decoration: none;
+}
+
+.article-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.article-container {
+  height: 530px;
+}
+
+.article-container img {
+  width: 292px;
+  height: 165.7px;
+}
+
+.article-description h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.article-description {
+  margin-top: 12px;
+}
+
+.article-details {
+  line-height: 24px;
+  text-align: left;
 }
