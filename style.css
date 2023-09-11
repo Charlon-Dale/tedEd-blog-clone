@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
@@ -17,7 +18,6 @@ header {
 
 h2 {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
   color: #232323;
 }
 
@@ -180,5 +180,23 @@ p {
 
 .article-details {
   line-height: 24px;
-  text-align: left;
+  font-size: 16px;
+  text-align: start;
+}
+
+.btn-show {
+  width: 100%;
+  height: 46px;
+  background-color: #000000;
+  border-style: none;
+  border-radius: 3px;
+  color: #fff;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-show:hover {
+  background-color: #ff2b06;
 }
