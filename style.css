@@ -200,3 +200,47 @@ p {
 .btn-show:hover {
   background-color: #ff2b06;
 }
+
+.footer-section {
+  max-width: 1262px;
+}
+
+.footer-div {
+  height: 1px;
+  border-width: 0;
+  background-color: red;
+}
+
+.footer-link {
+  width: 391px;
+  height: 15px;
+}
+
+.footer-link ul {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 14px;
+}
+
+.footer-link img {
+  width: 44px;
+  height: 12px;
+  object-fit: cover;
+}
+
+.footer-policy ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-policy a {
+  font-size: 10px;
+}
