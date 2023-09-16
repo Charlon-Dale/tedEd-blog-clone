@@ -21,14 +21,18 @@ h2 {
   color: #232323;
 }
 
-.header-container {
-  margin: 32px 321px 18px;
+.header-nav {
+  max-width: 1259px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 21px auto;
+  list-style-type: none;
 }
 
-.header-nav {
-  margin: auto;
-  max-width: 1560px;
-  list-style-type: none;
+.header-search-reg {
+  display: flex;
+  flex-direction: row;
 }
 
 .tedED-logo img {
@@ -203,6 +207,7 @@ p {
 
 .footer-section {
   max-width: 1262px;
+  margin: 0 auto;
 }
 
 .footer-div {
@@ -236,9 +241,15 @@ p {
   object-fit: cover;
 }
 
-.footer-policy ul {
+.footer-policy {
   display: flex;
   flex-direction: row;
+  list-style-type: none;
+}
+
+.footer-policy a {
+  text-decoration: none;
+  color: #555555;
 }
 
 .footer-policy a {
